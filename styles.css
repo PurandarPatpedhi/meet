@@ -1,70 +1,63 @@
 .image_1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
 }
 
-.image_1>img {
-    width: 40rem;
-    padding-top: 30px;
-    margin-right: 10px;
-    margin-left: 10px;
+.image_1 > img {
+  width: 40rem;
+  padding-top: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .logo {
-
-    margin-right: 30px;
-    justify-content: center;
-    align-items: center;
-    width: 7rem;
-    height: 8rem;
-    border-radius: 50rem;
-
+  margin-right: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 7rem;
+  height: 8rem;
+  border-radius: 50rem;
 }
 
 .header {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 90%;
-    margin: auto;
-    background-color: white;
-    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.3);
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 90%;
+  margin: auto;
+  background-color: white;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.3);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 .logo_div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.button_1{
-    margin: auto;
-    margin-bottom: 10px;
+.button_1 {
+  margin: auto;
+  margin-bottom: 10px;
 }
 
-/* .footer {
-    margin: auto;
-    justify-content: center;
-    text-align: center;
-    position: fixed;
-    bottom: 5;
+.form_submit {
+  color: rgb(196, 0, 0);
+  font-size: 1.5rem;
+  animation: blinker 2s ease-in-out infinite;
 }
 
-.footer>h5 {
-    padding: 10px;
-    font-style: Century Gothic;
-    font-weight: bold;
-    font-size: 18px;
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
 
-.footer>span {
-    font-weight: bold;
-    color: #0099cc;
-    font-size: 20px
-} */
+.form_submit1 {
+  color: rgb(11, 128, 0);
+  font-size: 1.7rem;
+}
